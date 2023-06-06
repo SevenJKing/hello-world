@@ -10,7 +10,7 @@ jobs:
     # 获取最新一条提交的git log  
     - name: Get Git Log
       id: git_log
-      uses: SevenJKing/latest-git-log-action@main
+      uses: SevenJKing/hello-world@main
       with:
         tag: origin/master
     # 发送邮件    
